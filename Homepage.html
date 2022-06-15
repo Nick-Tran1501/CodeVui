@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--    Icon-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<!--<!- Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Koulen&display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap" rel="stylesheet">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap" rel="stylesheet">
+<!--  End Font-->
+    <link rel="stylesheet" href="css/Homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Code Practice From Home</title>
+</head>
+<body>
+<header class="header">
+
+        <div>
+            <div class="header-items" id="logo">
+                <h3 id="text-logo"><a href="#" target="_blank"><i class="fa fa-home"></i>Home</a></h3>
+            </div>
+
+            <div class="header-items" onclick="openSearchBar()" ondblclick="turnOffSearchBar()">
+                <h3 id="search_bar_button"><i class="fa fa-search"></i>Search</h3>
+
+            </div>
+
+            <div class="header-items">
+                <h3><a href="Image/StrawHat_Logo.png" target="_blank">MyLogo</a></h3>
+            </div>
+        </div>
+
+            <div class="header-items-center">
+                <h2>StrawHat Pirate</h2>
+                <label for="search_bar"></label><input id="search_bar" type="text" onkeyup="searchRun()" placeholder="Search For Some Things">
+            </div>
+
+            <div class="header-items-right">
+                <img src="Image/StrawHat_Logo.png" alt="Logo" style="width: 15%">
+            </div>
+</header>
+
+<div class="body_Container">
+
+    <div class="ship">
+            <h1>Thousand Sunny</h1>
+            <img src="Image/Thousand_Sunny.png" alt="Ship" style="width: 25%">
+            <div>
+                <p>The Thousand Sunny is a brigantine, a type of ship that relies on the skills of its navigator.
+                    The ship has a lawn on her deck, complete with a swing and a slide, as well as an observation
+                    tower for a crow's nest. The huge masts give the ship extreme maneuverability.</p>
+            </div>
+        </div>
+
+    <div class="strawHat_Members">
+<!--      Luffy  -->
+        <div id="captain_Luffy">
+            <h1>Captain</h1>
+            <img src="Image/LuffyWanted.png" alt="Luffy" style="width: 50%; height: auto;"><br>
+            <div id="captain_info">
+                <p id="captain_name">Full Name: Monkey D. Luffy</p>
+                <p id="captain_ability"> Ability: Devil Fruit (Hito Hito no mi: Nika), Busoshoku, Kenbunshoku, and
+                    Haoshoku (Advance level)</p>
+                <p id="captain_role">Role: Captain</p>
+                <p id="captain_wanted">Wanted: 1,500,000 Beri</p>
+                <p id="captain_fact"> Fact: Monkey D. Luffy, also known as " Straw Hat Luffy" and commonly as
+                    "Straw Hat", is the main protagonist of the manga and anime, One Piece. He is the founder and
+                    captain of the increasingly infamous and powerful Straw Hat Pirates, as well as one of its top
+                    fighters. His lifelong dream is to become the Pirate King by inding the legendary treasure
+                    left behind by the late Gol D. Roger.He believes that being the Pirate King means having the most
+                    freedom in the world.</p>
+            </div>
+        </div>
+
+        <div class="Members">
+<!--            Zoro-->
+            <div class="damage" id="captain_right_hand">
+                <img src="Image/ZoroWanted.png" alt="Zoro">
+                <p id="zoro_name">Full name: Rononoa Zoro</p>
+                <p id="zoro_role">Role: Ship Vice Captain - Swordsman</p>
+                <p id="zoro_wanted">Wanted: 320,000 Beri</p>
+                <p id="zoro_ability"> Ability: 3 Style Sword, Haki: Busoshoku, Kenbunshoku, and Haoshoku</p>
+                <p id="zoro_fact"> Fact:Rononoa Zoro, also known as "Pirate Hunter" Zoro, is the combatant of the
+                    Straw Hat Pirates, and one of their two swordsmen. Formerly a bounty hunter, he is the second
+                    member of Luffy's crew and the first to join it, doing so in the Romance Dawn Arc.</p>
+            </div>
+
+<!--            Sanji-->
+            <div class="damage" id="captain_left_hand">
+                <img src="Image/SanjiWanted.png" alt="Sanji">
+                <p id="sanji_name">Full name: Vinsmoke Sanji</p>
+                <p id="sanji_role">Role: Master Chief</p>
+                <p id="sanji_wanted">Wanted: 330,000 Beri</p>
+                <p id="sanji_ability"> Ability: German Gene, Only Kick, Haki: Kenbunshoku and Haki Busoshoku</p>
+                <p id="sanji_fact"> Fact:"Black Leg" Sanji, born as Vinsmoke Sanji, is the cook of the Straw Hat
+                    Pirates. He is the fifth member of the crew and the fourth to join, doing so at the end of the
+                    Baratie Arc.</p>
+            </div>
+
+<!--            Yamato-->
+            <div class="damage"  id="captain_wing">
+                <img src="Image/YamatoWanted.png" alt="Yamato">
+                <p id="yamato_name">Full name: Yamato</p>
+                <p id="yamato_role">Role: New Member</p>
+                <p id="yamato_wanted">Wanted: 1,366,000 Beri</p>
+                <p id="yamato_ability"> Ability: Devil Fruit: Inu Inu no Mi, Model: Okuchi no Makami Haki: Busoshoku,
+                    Kenbunshoku, and Haoshoku</p>
+                <p id="yamato_fact"> Yamato, also known by her epithet as the Oni Princess, is a major character of One
+                    Piece who first appeared in the Wano Country Arc. She is the daughter of one of the Four Emperors
+                    of the Sea, Kaido who also holds many epithets..</p>
+            </div>
+
+<!--            Jimbei-->
+            <div class="damage" id="ship_Driver">
+                <img src="Image/JinbeiWanted.png" alt="Jinbei">
+                <p id="jinbei_name">Full name: Jimbei</p>
+                <p id="jinbei_role">Role: Ship Driver/p>
+                <p id="jinbei_wanted">Wanted: 438,000 Beri</p>
+                <p id="jinbei_ability"> Ability: Fishman's skill, Fishman's Karate Haki: Busoshoku and Kenbunshoku</p>
+                <p id="jinbei_fact">Fact: "Knight of the Sea" Jinbei is the helmsman of the Straw Hat Pirates. He is the
+                    tenth member of the crew and the ninth to join, doing so during the Wano Country Arc.</p>
+            </div>
+
+<!--            Usopp-->
+            <div class="damage" id="ship_Sniper">
+                <img src="Image/UsoppWanted.png" alt="Usopp">
+                <p id="usopp_name">Full name: Usopp</p>
+                <p id="usopp_role">Role: Ship Sniper/p>
+                <p id="usopp_wanted">Wanted: 200,000 Beri</p>
+                <p id="usopp_ability"> Ability: High Accuracy Haki: Kenbunshoku</p>
+                <p id="usopp_fact">Fact: "God" Usopp is the sniper of the Straw Hat Pirates. He is the fourth member of
+                    the crew and the third to join, doing so at the end of the Syrup Village Arc. Although he left the
+                    crew during the Water 7 Arc, he rejoined at the end of the Post-Enies Lobby Arc.</p>
+            </div>
+
+<!--            Robin-->
+            <div class="damage" id="Historical">
+                <img src="Image/NicoRobinWanted.png" alt="NicoRobin">
+                <p id="robin_name"> Full name: Nico Robin</p>
+                <p id="robin_role"> Role: Ship Historical</p>
+                <p id="robin_wanted"> Wanted: 130,000 Beri</p>
+                <p id="robin_ability">Ability: Devil Fruit: Hana Hana no Mi</p>
+                <p id="robin_fact">Fact: Nico Robin, also known by her epithet "Devil Child" and the "Light of
+                    the Revolution", is the archaeologist of the Straw Hat Pirates. She is the seventh member of the
+                    crew and the sixth to join, doing so at the end of the Arabasta Arc. She temporarily left the
+                    crew during the Water 7 Arc, but rejoined during the Enies Lobby Arc.</p>
+            </div>
+
+<!--            Franky-->
+            <div class="damage" id="ship_Maintainer">
+                <img src="Image/FrankyWanted.png" alt="Franky">
+                <p id="franky_name">Full name: Franky</p>
+                <p id="franky_role">Role: Ship Maintainer</p>
+                <p id="franky_wanted">Wanted: 94,000 Beri</p>
+                <p id="franky_ability"> Ability: Robotics, Iron Man, Laser</p>
+                <p id="franky_fact">Fact: "Iron Man" Franky is the shipwright of the Straw Hat Pirates. He is the
+                    crew's eighth member and the seventh to join, doing so at the end of the Post-Enies Lobby Arc.</p>
+            </div>
+
+
+<!--            Brook-->
+            <div class="damage" id="ship_musical">
+                <img src="Image/BrookWanted.png" alt="Brook">
+                <p id="brook_name">Full name: Brook</p>
+                <p id="brook_role">Role: Musical</p>
+                <p id="brook_wanted">Wanted: 83,000 Beri</p>
+                <p id="brook_ability"> Ability: Devil Fruit: Yomi Yomi no Mi, Ice Blade</p>
+                <p id="brook_fact">Fact: "Soul King" Brook is the musician of the Straw Hat Pirates, and one of
+                    their two swordsmen. He is the ninth member of the crew and the eighth to join, doing so at the
+                    end of the Thriller Bark Arc.</p>
+            </div>
+
+<!--            Nami-->
+            <div class="damage" id="ship_navigator">
+                <img src="Image/NamiWanted.png" alt="Nami">
+                <p id="nami_name">Full name: Nami</p>
+                <p id="nami_role">Role: Navigator</p>
+                <p id="nami_wanted">Wanted: 66,000 Beri</p>
+                <p id="nami_ability"> Ability: Weather Knowledge</p>
+                <p id="nami_fact">Fact: "Cat Burglar" Nami is the navigator of the Straw Hat Pirates. She is the
+                    third member of the crew and the second to join, doing so during the Orange Town Arc. She is the
+                    adoptive sister of Nojiko after the two were orphaned and taken in by Bell-mère. </p>
+            </div>
+<!--            blank-->
+            <div id="like_button_container"></div>
+
+<!--            Chopper-->
+            <div class="damage" id="ship_Doctor">
+                <img src="Image/ChopperWanted.png" alt="Chopper">
+                <p id="chopper_name">Full name: Tony Tony Chopper</p>
+                <p id="chopper_role">Role: Doctor</p>
+                <p id="chopper_wanted">Wanted: 100 Beri</p>
+                <p id="chopper_ability"> Ability: Devil Fruit: Hito Hito no Mi: Human</p>
+                <p id="chopper_fact">Fact: Tony Tony Chopper, also known as "Cotton Candy Lover" Chopper, is the doctor
+                    of the Straw Hat Pirates. He is the sixth member of the crew and the fifth to join, doing so at the
+                    end of the Drum Island Arc. He was temporarily forced to join the Foxy Pirates during the Long Ring
+                    Long Land Arc, but was quickly returned to Luffy's crew. </p>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+
+
+<footer class="footer">
+sad
+</footer>
+
+
+</body>
+<script src="js/Homepage.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<!-- Load React. -->
+<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
+<!-- Load our React component. -->
+<script src="js/like_button.js"></script>
+</html>

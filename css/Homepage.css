@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: palegoldenrod;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 150px;
+    border-bottom: outset;
+    border-width: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+
+}
+
+.header-items{
+    float: left;
+    /*display: block;*/
+    width: 30%;
+    height: 100%;
+    padding: 1%;
+    /*margin-top: 1%;*/
+
+}
+
+ h3{
+     font-size: 20px;
+     color: #00BFFF;
+ }
+
+.header-items a{
+    text-decoration: none;
+    color: #00BFFF;
+
+}
+
+h3:hover{
+    background-color: brown;
+    font-size: 25px;
+    transition: 1s;
+    border-radius: 50%;
+    color: #00BFFF;
+}
+
+i{
+    padding-right: 5px;
+}
+
+i:hover{
+    background-color:lightpink;
+    border-radius: 50%;
+}
+
+#search_bar{
+    visibility: hidden;
+    /*margin-top: 120px;*/
+    width: 100%;
+    height: 50px;
+    /*margin-left: 30%;*/
+    /*margin-right: 30%;*/
+    border: 5px;
+    background-image: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+    animation: animatedborder 3s ease alternate infinite;
+
+}
+
+.header-items-right{
+    text-align: center;
+}
+.header img{
+
+    margin: 10px 50px;
+    border-radius: 80%;
+    height: 70px;
+}
+
+.header h2{
+        float: left;
+        margin-left: 15%;
+        /*margin-top: 1%;*/
+        font-size: 50px;
+}
+
+.body_Container{
+    /*background-color: deepskyblue;*/
+    background-image: url("Ocean.png");
+    background-position: center;
+    background-size: cover ;
+    height: auto;
+    width: 100%;
+    border-bottom: outset;
+    border-width: 5px;
+    margin-top: 150px;
+}
+
+.ship{
+    background-color: orange;
+    width: 80%;
+    text-align: center;
+    margin: 2% 10%;
+    border: 10px double;
+}
+
+h1{
+    font-family: 'Tiro Gurmukhi', serif;
+}
+
+.ship p{
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.strawHat_Members{
+    background-color: blueviolet;
+    width: 80%;
+    margin: 2% 10%;
+
+}
+
+#captain_Luffy{
+    background-color: gold;
+    width: 60%;
+    margin: 2% 20%;
+    text-align: center;
+    border: 5px dotted ;
+
+
+}
+
+#captain_Luffy #captain_info{
+    text-align: justify;
+    padding: 1% 2%;
+    font-family: 'Tiro Gurmukhi', serif;
+    line-height: 2;
+}
+
+.footer{
+    background-color: palegoldenrod;
+    float: bottom;
+    height: 150px;
+    width: 100%;
+}
+
+.Members{
+    background-color: darkgoldenrod;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /*Chia Colunm*/
+    padding:1%;
+
+}
+
+.damage{
+    background-color: orangered;
+    display: grid;
+    place-items: center;
+    margin: 1% 1%;
+    text-align: justify;
+    padding: 0 2%;
+    font-size: 15px;
+
+}
+
+.damage img{
+    margin: 1% 0;
+    width: 50%;
+    height: auto;
+}
+
